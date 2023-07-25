@@ -1,0 +1,50 @@
+/* App.css */
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.note-content {
+  flex: 1;
+}
+
+.note-delete-btn {
+  margin-left: 10px;
+}
+
+.note-list {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+button[type='submit'] {
+  padding: 8px 15px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
