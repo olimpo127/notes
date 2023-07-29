@@ -5,6 +5,10 @@
   margin: 0 auto;
 }
 
+body {
+  background-color: yellowgreen;
+}
+
 .note {
   display: flex;
   align-items: center;
